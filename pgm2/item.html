@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mostFrequent</title>
+    <style>
+        h3,h4{
+            margin:30px;
+            text-align: center;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-3"></div>
+            <div class="col col-sm-6">
+                <h3> Most Frequent Element </h3>
+                <h4>of an Array</h4><br>
+                <table class="table table-borderless">
+                    <tr>
+                        <td class="font-weight-bolder">Enter Array Element:</td>
+                        <td><input class="form-control" type="text" id="number"><p id="p"></p></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><button type ="button" onclick="addelement();" class="btn btn-info" >ADD</button></td>
+                        <td><button type="button" onclick="mostFrequent();" class="btn btn-info">Most Frequent Element</button></td>
+                    </tr>
+                    <tr>
+                        <td><p id="result"></p></td>
+                        <td><p id="pn"> </p></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col col-sm-3"></div>
+        </div>
+    </div>
+    <script src="item.js"></script>
+</body>
+</html>

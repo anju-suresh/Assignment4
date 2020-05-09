@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sortElement</title>
+    <style>
+        h3{
+            margin:30px;
+            text-align: center;
+            color: darkred;
+        }
+        #colm{
+            float:bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-2"></div>
+            <div class="col col-sm-8">
+                <h3>List Sorting</h3>
+                <br>
+                <table class="w3-table-all w3-card-4">
+                    <tr class="w3-yellow">
+                        <td >Enter</td>
+                        <td >the</td>
+                        <td >list </td>
+                        <td >of</td>
+                        <td >items</td>
+                          
+                    </tr>
+                    <tr class="w3-center">
+                        <td class="font-weight-bolder">1</td>
+                        <td class="font-weight-bolder">2</td>
+                        <td class="font-weight-bolder">3</td>
+                        <td class="font-weight-bolder">4</td>
+                        <td class="font-weight-bolder">5</td>
+                    </tr>
+                    <tr class="w3-center">
+                        <td><input class="form-control" type="text" id="fruit1"><p id="p"></p></td>
+                        <td><input class="form-control" type="text" id="fruit2"><p id="p"></p></td>
+                        <td><input class="form-control" type="text" id="fruit3"><p id="p"></p></td>
+                        <td><input class="form-control" type="text" id="fruit4"><p id="p"></p></td>
+                        <td><input class="form-control" type="text" id="fruit5"><p id="p"></p></td>
+                    </tr>
+                    <tr class="w3-center">
+                       <td><button id="colm" type ="button" onclick="addelement();" class="btn btn-info" >ADD</button></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                       <td><button id="colm"  type="button" onclick="sortElement();" class="btn btn-info">Sort</button></td>
+                    </tr>
+                    <tr>
+                        <td><p id="result"></p></td>
+                        <td><p id="pn"> </p></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col col-sm-2"></div>
+        </div>
+    </div>
+    
+    <script src="sort.js"></script>
+</body>
+</html>
